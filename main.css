@@ -1,0 +1,24 @@
+
+/* Main Style sheet */
+
+/* Body */ 
+body {
+    background: url("imgs/backgrounds/homePageBg.png") repeat center top fixed;
+    background-size: 900px 500px;
+}
+
+
+/* Navbar */
+
+.borderImg {
+    border: 10px solid transparent;
+    padding: 10px;
+    border-image: url(/imgs/details/gradientBar1.png) 10 round;
+}
+
+#navLogo {
+    width: 9em;
+    transform: translate(14rem, -2.7rem);
+}
+
+
