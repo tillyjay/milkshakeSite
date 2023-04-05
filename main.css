@@ -87,6 +87,7 @@ body {
     display: flex; 
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .productLSpace {
@@ -168,12 +169,11 @@ body {
 
 
 /* Footer */
-
 #trademark {
     width: 12em;
-    padding: 10px 0px;
+    padding: 40px 0px 10px 0px;
 }
 
 .footerIcons {
-    padding: 10px 0px;
+    padding: 40px 0px 10px 0px;
 }
