@@ -7,12 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>assign3MilkShake</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@1&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="pos-f-t nav-flex">
+<!--Navbar-->
+  <div class="pos-f-t">
     <div class="collapse" id="navbarToggleExternalContent">
       <div class="bg-dark p-4">
         <a href="index.html"><h5 class="text-white borderImg">HOME</h5></a>
@@ -30,6 +33,11 @@
         <a href="#"><h5 class="text-white borderImg">DELIVERY</h5></a>
         <a href="#"><h5 class="text-white borderImg">EVENTS</h5></a>
         <a href="#"><h5 class="text-white borderImg">CONACT</h5></a>
+        <div class="text-white borderImg navIcons">
+          <i class="fa-solid fa-magnifying-glass navIcons" ></i>
+          <i class="fa-solid fa-user navIcons"></i>
+          <i class="fa-solid fa-basket-shopping"></i>
+        </div>
       </div>
       </div>
         <nav class="navbar navbar-dark bg-dark">
@@ -39,10 +47,67 @@
         </nav>
         <img id="navLogo" src="imgs/details/Logo.png" alt="Milkshake logo">
       </div>
+  </div>
 
+<!--Slogan--> 
+  <div class="sloganContainer">
+    <h2 id="sloganText">come sip and shake don't hesitate.</h2>
+  </div>
 
+<!--Feature-->
+  <div class="featureContainer">
+    <a href="#" id="featureText">try our feature.</a>
+  </div>
 
+<!--Product Categories-->
+  <div class="productContainer productLSpace">
+    <a href="#">
+      <img src="imgs/mainDrinks/beerCan.png">
+      <h3 id="domesticText">domestic</h3>
+    </a>
+  </div>
 
+  <div class="productContainer productSpace">
+    <a href="#">
+      <img src="imgs/mainDrinks/cocktail.png">
+      <h3 id="cocktailsText">cocktails</h3>
+    </a>
+  </div>
+
+  <div class="productContainer productSpace">
+    <a href="#">
+      <img src="imgs/mainDrinks/beerBottle.png">
+      <h3 id="importsText">imports</h3>
+    </a>
+  </div>
+
+  <div class="productContainer productSpace">
+    <a href="#">
+      <img src="imgs/mainDrinks/milkShake.png">
+      <h3 id="shakesText">shakes</h3>
+    </a>
+  </div>
+
+<!--Footer-->  
+  <!-- <nav class="navbar bg-dark">
+    <div class="text-white footerIcons">
+      <i class="fa-solid fa-magnifying-glass navIcons" ></i>
+      <i class="fa-solid fa-user navIcons"></i>
+      <i class="fa-solid fa-basket-shopping"></i>
+    </div>
+    <a class="navbar-brand" href="#">
+      <img id="trademark" src="imgs/details/Trademark.png" alt="Milkshake trademark">
+    </a>
+  </nav> -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img id="trademark" src="imgs/details/Trademark.png" alt="Milkshake trademark"></a>
+    <div class="text-white footerIcons">
+      <i class="fa-solid fa-magnifying-glass navIcons" ></i>
+      <i class="fa-solid fa-user navIcons"></i>
+      <i class="fa-solid fa-basket-shopping"></i>
+    </div>
+  </nav>
 
 <!--JavaScript-->    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
