@@ -12,3 +12,11 @@ toggleButton.addEventListener("touchstart", function() {
     navLogo.style.zIndex = "9999"; // bring navLogo to front
   }
 });
+
+function onNavbarToggle() {
+    var navbarHeight = document.querySelector('.navbar').offsetHeight;
+    var content = document.querySelector('body > .container, body > .row, body > .jumbotron');
+    if (content) {
+      content.style.marginTop = navbarHeight + 'px';
+    }
+  }

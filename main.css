@@ -10,6 +10,7 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
 
@@ -27,10 +28,10 @@ header {
 
 #navLogo {
     width: 10em;
-    position: absolute;
+    position: fixed;
     top: 30px;
     right: 20px;
-    z-index: 13;
+    z-index: 1999;
 }
 
 nav {
@@ -49,7 +50,7 @@ nav {
     background: url("imgs/backgrounds/sloganBg.png");
     padding: 25px;
     margin-bottom: 35px;
-    margin-top: 80px;
+    margin-top: 110px;
 }
 
 #sloganText {
