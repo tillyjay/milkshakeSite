@@ -1,0 +1,92 @@
+
+/* MAIN DESKTOP STYLES */
+
+@media only screen and (min-width: 950px) 
+{
+
+/* Mobile Breakpoint */
+#mobileHP {
+    display: none;
+}
+
+
+/* Body */
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body#desktopHP {
+    display: flex; 
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 100%;
+}
+
+.deskBg {
+    background: url("imgs/backgrounds/homePageBgDesktop.png") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+
+/* Navbar */
+header {
+    font-family: inter;
+}
+
+nav {
+    height: 90px;
+}
+
+/* Nav Logo */
+#desktopLogo {
+    width: 13em;
+    transform: translate(0px, 35px);
+    margin-right: 10px;
+}
+
+/* Nav Links */
+.nav-link {
+    font-size: 1.2rem;
+    margin-right: 20px;
+    width: 160px;
+    text-align: center;
+    border: 5px solid transparent;
+    padding: 3px;
+    border-image: url(/imgs/details/gradientBar1.png) 10 round;
+}
+
+.borderImgD {
+    border: 10px solid transparent;
+    padding: 10px;
+    border-image: url(/imgs/details/gradientBar1.png) 10 round;
+}
+
+a.dropdown-item:hover {
+    background: url("imgs/details/gradientBar3.png") no-repeat center center;
+}
+
+/* Nav Icons */
+div.headerIcons {
+    margin-right: 10px;
+}
+
+i.navIcons {
+    margin-right: 20px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+}

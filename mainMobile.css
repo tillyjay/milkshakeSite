@@ -1,11 +1,12 @@
 
-/* Main Style sheet */
+/* MAIN MOBILE STYLES */
 
-/* MOBILE STYLES */
 /* Body */ 
+@media only screen and (max-width: 949px) 
+{
 body {
     background: url("imgs/backgrounds/homePageBg.png") repeat center top fixed;
-    background-size: 900px 510px;
+    background-size: 953px 510px;
     display: flex; 
     flex-flow: column nowrap;
     justify-content: center;
@@ -13,6 +14,9 @@ body {
     padding: 30px;
 }
 
+#desktopHP {
+    display: none;
+}
 
 /* Navbar */
 header {
@@ -68,6 +72,7 @@ nav {
     0px 22.9769px 5.32008px rgba(209, 137, 228, 0.321955), 
     0px 12.2919px 2.21381px rgba(209, 137, 228, 0.55);
 }
+
 
 /* Feature */ 
 .featureContainer {
@@ -146,7 +151,7 @@ nav {
 }
 
 #hpDomestic {
-    max-width: 350px;
+    max-width: 300px;
     max-height: 460px;
 }
 
@@ -226,4 +231,4 @@ footer {
     padding-right: 52px;
 }
 
-
+}

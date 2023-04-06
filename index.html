@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mainMobile.css">
+    <link rel="stylesheet" href="mainDesktop.css">
     <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="deskBg">
+
+<div id="mobileHP">
 <!--Navbar-->
 <header>
   <div class="pos-f-t">
@@ -69,7 +72,6 @@
         </nav>
         <img id="navLogo" src="imgs/details/Logo.png" alt="Milkshake logo">
       </div>
-  </div>
   </header>
 
 <!--Slogan--> 
@@ -131,8 +133,62 @@
     <a class="navbar-brand" href="#"><img id="trademark" src="imgs/details/Trademark.png" alt="Milkshake trademark"></a>
   </nav>
   </footer>
-
+</div>
 <!--Desktop Homepage-->  
+<div id="desktopHP">
+<!--Desktop Navbar-->  
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <img id="desktopLogo" src="imgs/details/Logo.png" alt="Milkshake Logo">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item active first-nav-item">
+        <a class="nav-link text-white" href="#">HOME</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          PRODUCTS
+        </a>
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item text-white" href="#">DOMESTIC</a>
+          <a class="dropdown-item text-white" href="#">COCKTAILS</a>
+          <a class="dropdown-item text-white" href="#">IMPORTS</a>
+          <a class="dropdown-item text-white" href="#">SHAKES</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">DELIVERY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">EVENTS</a>
+      </li>
+      <li class="nav-item" id="last-nav-item">
+        <a class="nav-link text-white" href="#">CONTACT</a>
+      </li>
+    </ul>
+    <div class="text-white headerIcons">
+      <a href="#">
+        <i class="fa-solid fa-magnifying-glass fa-xl text-white navIcons" ></i>
+      </a>
+      <a href="#">
+        <i class="fa-solid fa-user fa-xl text-white navIcons"></i>
+      </a>
+      <a href="#">
+        <i class="fa-solid fa-basket-shopping text-white fa-xl"></i>
+      </a>
+    </div>
+  </div>
+</nav>
+</header>
+
+
+
+</div>
+
+
 
 
 <!--JavaScript--> 
