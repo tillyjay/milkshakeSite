@@ -23,6 +23,7 @@ body#desktopHP {
     align-items: center;
     padding: 30px;
     height: 100%;
+    filter: contrast(1.75);
 }
 
 .deskBg {
@@ -32,6 +33,14 @@ body#desktopHP {
     width: 100%;
 }
 
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 /* Navbar */
 header {
@@ -138,6 +147,39 @@ i#headerIconThree:hover {
 
 
 /* Main */ 
+#desktopHP main {
+    position: relative;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+#slogFeatureContainer {
+    position: fixed;
+    right: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+    margin-right: 50px;
+    max-width: 400px;
+}
+
+#sloganText {
+    font-family: 'Bevan';
+    font-size: 3.2em;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    filter: contrast(1.25);
+    text-shadow: 0px 100px 80px rgba(209, 137, 228, 0.0383329), 
+    0px 53.1039px 33.4221px rgba(209, 137, 228, 0.0784649), 
+    0px 40.9008px 17.869px rgba(209, 137, 228, 0.127419), 
+    0px 32.2197px 10.0172px rgba(209, 137, 228, 0.199177), 
+    0px 22.9769px 5.32008px rgba(209, 137, 228, 0.321955), 
+    0px 12.2919px 2.21381px rgba(209, 137, 228, 0.55);
+}
 
 
 
