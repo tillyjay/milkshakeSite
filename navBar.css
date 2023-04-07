@@ -104,6 +104,7 @@ nav {
     color: white;
 }
 
+/* Current Page */
 .current-page {
     position: relative;
     border-bottom: 4px solid rgb(80,189,181);;
@@ -119,6 +120,18 @@ nav {
     background: linear-gradient(90deg, rgba(80,189,181,1) 0%, rgba(100,169,193,1) 24%, rgba(110,159,199,1) 52%, rgba(127,141,210,1) 70%, rgba(133,135,214,1) 76%, rgba(155,111,229,1) 100%);
 }
 
+/* Current Page Products Dropdown */
+.current-page-products::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -13px;
+    width: 89%;
+    height: 6px;
+    background: linear-gradient(90deg, rgba(80,189,181,1) 0%, rgba(100,169,193,1) 24%, rgba(110,159,199,1) 52%, rgba(127,141,210,1) 70%, rgba(133,135,214,1) 76%, rgba(155,111,229,1) 100%);
+}
+
+/* Nav-links Hover */
 #homeDT:hover {
     color: #50bdb5;
 }

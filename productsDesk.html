@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="cardsDesktop.css">
     <link rel="stylesheet" href="prodctsDesktop.css">
     <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
@@ -25,19 +26,14 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item active first-nav-item">
-                    <a id="homeDT" class="nav-link current-page" href="index.html">HOME</a>
+                    <a id="homeDT" class="nav-link" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    PRODUCTS
-                    </a>
-                <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item text-white" href="productsDesk.html">ALL</a>
-                    <a class="dropdown-item text-white" href="#">DOMESTIC</a>
-                    <a class="dropdown-item text-white" href="#">COCKTAILS</a>
-                    <a class="dropdown-item text-white" href="#">IMPORTS</a>
-                    <a class="dropdown-item text-white" href="#">SHAKES</a>
-                </div>
+                    <div class="current-page-products">
+                        <a class="nav-link " href="productsDesk.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PRODUCTS
+                        </a>
+                    </div>
               </li>
               <li class="nav-item">
                 <a id="deliveryDT" class="nav-link" href="#">DELIVERY</a>
@@ -67,34 +63,34 @@
 <!--Products Main-->        
 <main>
     <ul class="card-list">
-        <li id="cardOne" class="card">
+        <li class="card cardOne">
             <a href="#" class="card-link">
-                <img src="imgs/mainDrinks/beerCan.png" alt="Domestic Beer" id="domestic" class="card-img">
+                <img id="domesticImg" src="imgs/mainDrinks/beerCan.png" alt="Domestic Beer" class="card-img cardOneImg">
             </a>
-            <h4 id="domesticText">domestic. 12</h4>
+            <h4 class="cardOneText">domestic. 12</h4>
         </li>
 
-        <li class="card">
+        <li class="card cardTwo">
             <a href="#" class="card-link">
-                <img src="..\Imgs\mokaPot.png" alt="Moka Pot Coffee" class="card-img">
+                <img id="cocktailsImg" src="imgs/mainDrinks/cocktail.png" alt="Cocktails" class="card-img cardTwoImg">
             </a>
-
+            <h4 class="cardTwoText">cocktails. 8</h4>
         </li>
 
-        <li class="card">
+        <li class="card cardThree">
             <a href="#" class="card-link">
-                <img src="..\Imgs\espresso.png" alt="Espresso Coffee"  class="card-img">
+                <img id="importsImg" src="imgs/mainDrinks/beerBottle.png" alt="Imported Beer" class="card-img cardThreeImg">
             </a>
+            <h4 class="cardThreeText">imports. 12</h4>
         </li>
 
-        <li class="card">
+        <li class="card cardFour">
             <a href="#" class="card-link">
-                <img src="..\Imgs\pourOver.png" alt="Pour Over Coffee"  class="card-img">
+                <img id="shakesImg" src="imgs/mainDrinks/milkShake.png" alt="Milkshakes" class="card-img cardFourImg">
             </a>
+            <h4 class="cardFourText">shakes. 8</h4>
         </li>
     </ul>
-
-
 </main>     
 
 
@@ -122,7 +118,6 @@
 
 
 <!--JavaScript--> 
-    <script src="logoClick.js"></script>  
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
