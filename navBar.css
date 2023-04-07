@@ -1,0 +1,227 @@
+
+/* MOBILE AND DESKTOP HEADER AND FOOTER NAVBARS */
+
+/* Mobile NavBar */
+@media only screen and (max-width: 949px) 
+{
+
+/* Mobile Header Navbar */
+header {
+    width: 100vw;
+    font-family: inter, Arial, Helvetica, sans-serif;
+}
+
+.borderImg {
+    border: 10px solid transparent;
+    padding: 10px;
+    border-image: url(/imgs/details/gradientBar1.png) 10 round;
+}
+
+#navLogo {
+    width: 10em;
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    z-index: 1999;
+}
+
+nav {
+    width: 100vw;
+}
+
+.navIcons {
+    padding-right: 10px;
+}
+
+
+/* Mobile Footer NavBar */
+footer { 
+    display: flex; 
+    flex-flow: column nowrap;
+}
+
+.nav-flex-footer {
+    display: flex; 
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+}
+
+#trademark {
+    width: 13em;
+    padding: 10px 0px 10px 10px;
+}
+
+.footerIcons {
+    padding: 10px 0px 0px 11px;
+}
+
+.spacerIcon {
+    padding-right: 52px;
+}
+
+}
+
+
+
+/* Desktop NavBar */
+@media only screen and (min-width: 950px) 
+{
+
+/* Desktop Header Navbar */
+header {
+    font-family: inter;
+}
+
+nav {
+    height: 90px;
+}
+
+#navMobile {
+    box-shadow: 0px 3px 26px -5px #000000;
+}
+
+/* Nav Logo */
+#desktopLogo {
+    width: 13em;
+    transform: translate(5px, 35px);
+    margin-right: 10px;
+}
+
+/* Nav Links */
+.nav-link {
+    font-size: 1.2rem;
+    margin-right: 20px;
+    color: white;
+    width: 160px;
+    text-align: center;
+    border: 5px solid transparent;
+    padding: 3px;
+    border-image: url(/imgs/details/gradientBar1.png) 10 round;
+}
+
+#navbarDropdownMenuLink, #deliveryDT, #eventDT, #contactDT {
+    color: white;
+}
+
+.current-page {
+    position: relative;
+    border-bottom: 4px solid rgb(80,189,181);;
+}
+  
+.current-page::after {
+    content: "";
+    position: absolute;
+    left: -5px;
+    bottom: -16px;
+    width: 107%;
+    height: 6px;
+    background: linear-gradient(90deg, rgba(80,189,181,1) 0%, rgba(100,169,193,1) 24%, rgba(110,159,199,1) 52%, rgba(127,141,210,1) 70%, rgba(133,135,214,1) 76%, rgba(155,111,229,1) 100%);
+}
+
+#homeDT:hover {
+    color: #50bdb5;
+}
+
+#navbarDropdownMenuLink:hover {
+    color: #64a9c1
+}
+
+#deliveryDT:hover {
+    color: #6e9fc7
+}
+
+#eventDT:hover {
+    color: #8587d6;
+}
+
+#contactDT:hover {
+    color: #9b6fe5;
+}
+
+.borderImgD {
+    border: 10px solid transparent;
+    padding: 10px;
+    border-image: url(/imgs/details/gradientBar1.png) 10 round;
+}
+
+a.dropdown-item:hover {
+    background: url("imgs/details/gradientBar3.png") no-repeat center center;
+}
+
+/* Nav Icons */
+div.headerIcons {
+    margin-right: 10px;
+}
+
+.headerIcons a:hover {
+    text-decoration: none;
+}
+
+i.navIcons {
+    margin-right: 20px;
+    color: white;
+}
+
+i#headerIconOne:hover {
+    color:#50bdb5;
+}
+
+i#headerIconTwo:hover {
+    color: #7695cd;
+}
+
+i#headerIconThree:hover {
+    color: #9b6fe5;
+}
+
+/* Desktop Footer NavBar */
+footer { 
+    display: flex; 
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.nav-flex-footer-desktop {
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0px -3px 26px -5px #000000;
+}
+
+/* Trademark */
+#trademarkDesktop {
+    width: 13em;
+    padding: 10px 0px;
+}
+
+/* Footer Icons */
+.iconD {
+    font-size: 2.3em;
+    margin-right: 15px;
+}
+
+.last-icon {
+    margin-right: 25px;
+}
+
+.footerIconsDesktop a {
+    color: white;
+    text-decoration: none;
+}
+
+i#footerIconOne:hover {
+    color:#50bdb5;
+}
+
+i#footerIconTwo:hover {
+    color: #7695cd;
+}
+
+i#footerIconThree:hover {
+    color: #9b6fe5;
+}
+
+}

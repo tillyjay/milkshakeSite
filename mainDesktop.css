@@ -9,7 +9,6 @@
     display: none;
 }
 
-
 /* Body */
 html {
     margin: 0;
@@ -42,109 +41,6 @@ body#desktopHP {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Navbar */
-header {
-    font-family: inter;
-}
-
-nav {
-    height: 90px;
-}
-
-/* Nav Logo */
-#desktopLogo {
-    width: 13em;
-    transform: translate(0px, 35px);
-    margin-right: 10px;
-}
-
-/* Nav Links */
-.nav-link {
-    font-size: 1.2rem;
-    margin-right: 20px;
-    color: white;
-    width: 160px;
-    text-align: center;
-    border: 5px solid transparent;
-    padding: 3px;
-    border-image: url(/imgs/details/gradientBar1.png) 10 round;
-}
-
-#navbarDropdownMenuLink, #deliveryDT, #eventDT, #contactDT {
-    color: white;
-}
-
-.current-page {
-    position: relative;
-    border-bottom: 4px solid rgb(80,189,181);;
-}
-  
-.current-page::after {
-    content: "";
-    position: absolute;
-    left: -5px;
-    bottom: -16px;
-    width: 107%;
-    height: 6px;
-    background: linear-gradient(90deg, rgba(80,189,181,1) 0%, rgba(100,169,193,1) 24%, rgba(110,159,199,1) 52%, rgba(127,141,210,1) 70%, rgba(133,135,214,1) 76%, rgba(155,111,229,1) 100%);
-}
-
-#homeDT:hover {
-    color: #50bdb5;
-}
-
-#navbarDropdownMenuLink:hover {
-    color: #64a9c1
-}
-
-#deliveryDT:hover {
-    color: #6e9fc7
-}
-
-#eventDT:hover {
-    color: #8587d6;
-}
-
-#contactDT:hover {
-    color: #9b6fe5;
-}
-
-.borderImgD {
-    border: 10px solid transparent;
-    padding: 10px;
-    border-image: url(/imgs/details/gradientBar1.png) 10 round;
-}
-
-a.dropdown-item:hover {
-    background: url("imgs/details/gradientBar3.png") no-repeat center center;
-}
-
-/* Nav Icons */
-div.headerIcons {
-    margin-right: 10px;
-}
-
-.headerIcons a:hover {
-    text-decoration: none;
-}
-
-i.navIcons {
-    margin-right: 20px;
-    color: white;
-}
-
-i#headerIconOne:hover {
-    color:#50bdb5;
-}
-
-i#headerIconTwo:hover {
-    color: #7695cd;
-}
-
-i#headerIconThree:hover {
-    color: #9b6fe5;
-}
-
 
 /* Main */ 
 #desktopHP main {
@@ -161,9 +57,15 @@ i#headerIconThree:hover {
     transform: translateY(-50%);
     text-align: center;
     margin-right: 50px;
+    margin-top: 70px;
     max-width: 400px;
+    display: flex; 
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Slogan */
 #sloganText {
     font-family: 'Bevan';
     font-size: 3.2em;
@@ -181,13 +83,25 @@ i#headerIconThree:hover {
     0px 12.2919px 2.21381px rgba(209, 137, 228, 0.55);
 }
 
+/* Feature */
+#featureButtonContainer {
+    margin-top: 70px;
+    text-decoration: none;  
+}
 
+#featureButton {
+    font-family: bevan;
+    color: white;
+    background-color: #292b2c;
+    padding: 10px 40px;
+    border: 10px solid transparent;
+    border-image: url(/imgs/details/gradientBar1.png) 10 round;
+    width: 100%;
+    transition: all .2s ease-in-out; 
+}
 
-
-
-
-
-
-
+#featureButton:hover {
+    transform: scale(1.2); 
+}
 
 }

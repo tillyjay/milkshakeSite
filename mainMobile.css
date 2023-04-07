@@ -1,9 +1,10 @@
 
 /* MAIN MOBILE STYLES */
-
-/* Body */ 
+ 
 @media only screen and (max-width: 949px) 
 {
+
+/* Body */
 body {
     background: url("imgs/backgrounds/homePageBg.png") repeat center top fixed;
     background-size: 953px 510px;
@@ -16,35 +17,6 @@ body {
 
 #desktopHP {
     display: none;
-}
-
-
-/* Navbar */
-header {
-    width: 100vw;
-    font-family: inter, Arial, Helvetica, sans-serif;
-}
-
-.borderImg {
-    border: 10px solid transparent;
-    padding: 10px;
-    border-image: url(/imgs/details/gradientBar1.png) 10 round;
-}
-
-#navLogo {
-    width: 10em;
-    position: fixed;
-    top: 30px;
-    right: 20px;
-    z-index: 1999;
-}
-
-nav {
-    width: 100vw;
-}
-
-.navIcons {
-    padding-right: 10px;
 }
 
 
@@ -205,31 +177,5 @@ nav {
     max-width: 100vw;
 }
 
-
-/* Footer */
-footer { 
-    display: flex; 
-    flex-flow: column nowrap;
-}
-
-.nav-flex-footer {
-    display: flex; 
-    flex-flow: column nowrap;
-    justify-content: start;
-    align-items: start;
-}
-
-#trademark {
-    width: 13em;
-    padding: 10px 0px 10px 10px;
-}
-
-.footerIcons {
-    padding: 10px 0px 0px 10px;
-}
-
-.spacerIcon {
-    padding-right: 52px;
-}
 
 }

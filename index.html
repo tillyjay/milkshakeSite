@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>assign3MilkShake</title>
+    <title>assign3MilkShake - Index</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="navBar.css">
     <link rel="stylesheet" href="mainMobile.css">
     <link rel="stylesheet" href="mainDesktop.css">
     <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@1&display=swap" rel="stylesheet">
@@ -90,28 +91,28 @@
   <div class="productContainer">
     <a class="productLink" href="#">
       <img id="hpDomestic" class="sticky" src="imgs/mainDrinks/beerCan.png">
-      <h3 id="domesticText">domestic</h3>
+      <h3 id="domesticText">domestic 12</h3>
     </a>
   </div>
 
   <div class="productContainer">
     <a href="#">
       <img id="hpCocktail" src="imgs/mainDrinks/cocktail.png">
-      <h3 id="cocktailsText">cocktails</h3>
+      <h3 id="cocktailsText">cocktails 8</h3>
     </a>
   </div>
 
   <div class="productContainer productSpace">
     <a href="#">
       <img id="hpImport" src="imgs/mainDrinks/beerBottle.png">
-      <h3 id="importsText">imports</h3>
+      <h3 id="importsText">imports 12</h3>
     </a>
   </div>
 
   <div class="productContainer productSpace">
     <a href="#">
       <img id="hpShake" src="imgs/mainDrinks/milkShake.png">
-      <h3 id="shakesText">shakes</h3>
+      <h3 id="shakesText">shakes 8</h3>
     </a>
   </div>
 </div>
@@ -121,16 +122,13 @@
   <footer>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom nav-flex-footer">
     <div class="text-white footerIcons">
-      <i class="fa-solid fa-magnifying-glass fa-xl navIcons" ></i>
-      <i class="fa-solid fa-user fa-xl navIcons"></i>
-      <i class="fa-solid fa-basket-shopping fa-xl spacerIcon"></i>
-
       <i class="fa-brands fa-square-instagram fa-xl navIcons"></i>
       <i class="fa-brands fa-square-facebook fa-xl navIcons"></i>
       <i class="fa-brands fa-square-twitter fa-xl navIcons"></i>
-    </div>
-    
-    <a class="navbar-brand" href="#"><img id="trademark" src="imgs/details/Trademark.png" alt="Milkshake trademark"></a>
+    </div>  
+    <a class="navbar-brand" href="#">
+      <img id="trademark" src="imgs/details/Trademark.png" alt="Milkshake trademark">
+    </a>
   </nav>
   </footer>
 </div>
@@ -143,21 +141,19 @@
 <!--Desktop Navbar-->  
 <div class="overlay"></div>
 <header>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<nav id="navMobile" class="navbar navbar-expand-lg navbar-dark bg-dark">
   <img id="desktopLogo" src="imgs/details/Logo.png" alt="Milkshake Logo">
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav mx-auto">
       <li class="nav-item active first-nav-item">
-        <a id="homeDT" class="nav-link current-page" href="#">HOME</a>
+        <a id="homeDT" class="nav-link current-page" href="index.html">HOME</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           PRODUCTS
         </a>
         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item text-white" href="productsDesk.html">ALL</a>
           <a class="dropdown-item text-white" href="#">DOMESTIC</a>
           <a class="dropdown-item text-white" href="#">COCKTAILS</a>
           <a class="dropdown-item text-white" href="#">IMPORTS</a>
@@ -189,21 +185,36 @@
 </nav>
 </header>
 
+<!--Desktop Main-->
 <main>
   <div id="slogFeatureContainer">
-    <h1 id="sloganText">come sip and shake. don't hesitate</h1>
+    <h1 id="sloganText">come sip and shake. don't hesitate.</h1>
+    <a id="featureButtonContainer" href="#">
+      <h2 id="featureButton">try our feature</h2>
+    </a>
   </div>  
-
-  <div>
-    
-  </div>
-
 </main>
 
-
+<!--Desktop Footer-->  
+  <footer>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom nav-flex-footer-desktop">
+      <a class="navbar-brand" href="#">
+        <img id="trademarkDesktop" src="imgs/details/Trademark.png" alt="Milkshake trademark">
+      </a>
+      <div class="text-white footerIconsDesktop">
+        <a href="#">
+          <i id="footerIconOne" class="fa-brands fa-square-instagram fa-xl iconD"></i>
+        </a>
+        <a href="#">
+          <i id="footerIconTwo" class="fa-brands fa-square-facebook fa-xl iconD"></i>
+        </a>
+        <a href="#">
+          <i id="footerIconThree" class="fa-brands fa-square-twitter fa-xl iconD last-icon"></i>
+        </a>    
+      </div>      
+    </nav>
+  </footer>
 </div>
-
-
 
 
 <!--JavaScript--> 
