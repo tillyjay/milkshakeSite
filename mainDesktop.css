@@ -26,10 +26,9 @@ body#desktopHP {
 }
 
 .deskBg {
-    background: url("imgs/backgrounds/homePageBgDesktop.png") no-repeat center;
+    background: url("imgs/backgrounds/homePageBgDesktop.png") repeat center;
     background-size: cover;
     height: 100%;
-    width: 100%;
 }
 
 .overlay {

@@ -77,7 +77,7 @@ nav {
     height: 90px;
 }
 
-#navMobile {
+#navDesktop {
     box-shadow: 0px 3px 26px -5px #000000;
 }
 
@@ -89,11 +89,14 @@ nav {
 }
 
 /* Nav Links */
-.nav-link {
-    font-size: 1.2rem;
+.nav-item {
     margin-right: 20px;
+}
+
+.nav-link {
+    font-size: 100%;
     color: white;
-    width: 160px;
+    width: 150px;
     text-align: center;
     border: 5px solid transparent;
     padding: 3px;
@@ -126,7 +129,7 @@ nav {
     position: absolute;
     left: 0px;
     bottom: -13px;
-    width: 89%;
+    width: 100%;
     height: 6px;
     background: linear-gradient(90deg, rgba(80,189,181,1) 0%, rgba(100,169,193,1) 24%, rgba(110,159,199,1) 52%, rgba(127,141,210,1) 70%, rgba(133,135,214,1) 76%, rgba(155,111,229,1) 100%);
 }
@@ -164,7 +167,8 @@ a.dropdown-item:hover {
 
 /* Nav Icons */
 div.headerIcons {
-    margin-right: 10px;
+    margin-right: 15px;
+    font-size: 0.9em;
 }
 
 .headerIcons a:hover {
@@ -172,7 +176,7 @@ div.headerIcons {
 }
 
 i.navIcons {
-    margin-right: 20px;
+    margin-right: 15px;
     color: white;
 }
 
@@ -212,7 +216,7 @@ footer {
 
 /* Footer Icons */
 .iconD {
-    font-size: 2.3em;
+    font-size: 2em;
     margin-right: 15px;
 }
 
