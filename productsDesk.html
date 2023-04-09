@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="navBar.css">
     <link rel="stylesheet" href="cardsDesktop.css">
     <link rel="stylesheet" href="prodctsDesktop.css">
+    <link rel="stylesheet" href="mainMobile.css">
     <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
 </head>
@@ -22,7 +23,7 @@
 <!--Desktop Navbar-->  
 <div class="overlay"></div>
     <header>
-        <nav id="navDesktop" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav id="navDesktop" class="navbar navbar-expand-lg navbar-dark bg-dark" style="z-index: 9999999">
             <img id="desktopLogo" src="imgs/details/Logo.png" alt="Milkshake Logo">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item active first-nav-item">
@@ -93,8 +94,6 @@
     </ul>
 </main>     
 
-
-
 <!--Desktop Footer-->  
 <footer>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom nav-flex-footer-desktop">
@@ -114,10 +113,125 @@
 </footer>
 </div>        
 
-
+<!--Mobile Products Page-->
+<div id="mobileHP">
+    <!--Navbar-->
+    <header>
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="fixed-top bg-dark p-4" style="margin-top:40px">
+            <a href="index.html">
+              <h4 class="text-white borderImg">
+                HOME
+              </h4>
+            </a>
+            <a href="#">
+              <h4 class="text-white borderImg">
+                <div class="dropdown show">
+                  <a class="dropdown-toggle text-white" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    PRODUCTS
+                  </a>
+                <div class="dropdown-menu bg-dark borderImg" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item text-white" href="#">Domestic</a>
+                  <a class="dropdown-item text-white" href="#">Cocktails</a>
+                  <a class="dropdown-item text-white" href="#">Imports</a>
+                  <a class="dropdown-item text-white" href="#">Shakes</a>
+                </div>
+                </div>
+              </h4>
+            </a>
+            <a href="#">
+              <h4 class="text-white borderImg">
+                DELIVERY
+              </h4>
+            </a>
+            <a href="#">
+              <h4 class="text-white borderImg">
+                EVENTS
+              </h4>
+            </a>
+            <a href="#">
+              <h4 class="text-white borderImg">
+                CONACT
+              </h4>
+            </a>
+            <div class="text-white borderImg navIcons">
+              <i class="fa-solid fa-magnifying-glass fa-xl  navIcons" ></i>
+              <i class="fa-solid fa-user fa-xl navIcons"></i>
+              <i class="fa-solid fa-basket-shopping fa-xl"></i>
+            </div>
+          </div>
+          </div>
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+              <button id="toggleButton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </nav>
+            <img id="navLogo" src="imgs/details/Logo.png" alt="Milkshake logo">
+          </div>
+      </header>
+    
+    <!--Slogan--> 
+      <main>
+      <div class="sloganContainer">
+        <h2 id="sloganText">come sip and shake don't hesitate.</h2>
+      </div>
+    
+    <!--Feature-->
+      <div class="featureContainer">
+        <a href="#" id="featureText">try our feature.</a>
+      </div>
+    
+    <!--Product Categories-->
+      <div class="products">
+      <div class="productContainer">
+        <a class="productLink" href="#">
+          <img id="hpDomestic" class="sticky" src="imgs/mainDrinks/beerCan.png">
+          <h3 id="domesticText">domestic 12</h3>
+        </a>
+      </div>
+    
+      <div class="productContainer">
+        <a href="#">
+          <img id="hpCocktail" src="imgs/mainDrinks/cocktail.png">
+          <h3 id="cocktailsText">cocktails 8</h3>
+        </a>
+      </div>
+    
+      <div class="productContainer productSpace">
+        <a href="#">
+          <img id="hpImport" src="imgs/mainDrinks/beerBottle.png">
+          <h3 id="importsText">imports 12</h3>
+        </a>
+      </div>
+    
+      <div class="productContainer productSpace">
+        <a href="#">
+          <img id="hpShake" src="imgs/mainDrinks/milkShake.png">
+          <h3 id="shakesText">shakes 8</h3>
+        </a>
+      </div>
+    </div>
+    </main>
+    
+    <!--Footer-->  
+      <footer>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom nav-flex-footer">
+        <div class="text-white footerIcons">
+          <i class="fa-brands fa-square-instagram fa-xl navIcons"></i>
+          <i class="fa-brands fa-square-facebook fa-xl navIcons"></i>
+          <i class="fa-brands fa-square-twitter fa-xl navIcons"></i>
+        </div>  
+        <a class="navbar-brand" href="#">
+          <img id="trademark" src="imgs/details/Trademark.png" alt="Milkshake trademark">
+        </a>
+      </nav>
+      </footer>
+    </div>
 
 
 <!--JavaScript--> 
+    <script src="navBar.js"></script>  
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

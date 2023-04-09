@@ -26,7 +26,7 @@ li.card {
     justify-content: center;
     align-items: center;
     background-color:rgba(97, 97, 97, 0.5);
-    height: 440px;
+    height: 460px;
 }
 
 .card-img {
@@ -47,9 +47,7 @@ li.card:hover {
 
 /* Card One */
 .cardOne {
-    border-left: 5px solid #61D5CA;
-    border-top: 5px solid #61D5CA;
-    border-right: 5px solid #61D5CA;
+    border: 5px solid #61D5CA;
     transform: translate(-45%, 7%);
 }
 
@@ -63,10 +61,9 @@ li.card:hover {
 
 /* Card Two */
 .cardTwo {
-    border-left: 5px solid #6596cf;
-    border-bottom: 5px solid #6596cf;
-    border-right: 5px solid #6596cf;
-    transform: translate(-35%, -11.5%);
+    border: 5px solid #6596cf;
+    transform: translate(-35%, -14.8%);
+
 }
 
 .cardTwoImg {
@@ -79,9 +76,7 @@ li.card:hover {
 
 /* Card Three Card */ 
 .cardThree {
-    border-left: 5px solid #9282fa;
-    border-top: 5px solid #9282fa;
-    border-right: 5px solid #9282fa;
+    border: 5px solid #9282fa;
     transform: translate(-25%, 7%);
 }
 
@@ -95,10 +90,8 @@ li.card:hover {
 
 /* Card Four*/
 .cardFour {
-    border-left: 5px solid #cf88e2;
-    border-bottom: 5px solid #cf88e2;
-    border-right: 5px solid #cf88e2;
-    transform: translate(-15%, -11.5%);
+    border: 5px solid #cf88e2;
+    transform: translate(-15%, -14.8%);
 }
 
 .cardFourImg {
@@ -108,3 +101,18 @@ li.card:hover {
 .cardFourText {
     transform: translateY(-190%);
 }
+
+@media only screen and (max-width: 1180px) and (min-width: 950px)  
+{
+
+    li.card {
+        flex: 0 1 180px;
+        margin: 0 .5rem; 
+
+    }
+
+
+
+
+
+}    

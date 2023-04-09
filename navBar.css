@@ -29,6 +29,10 @@ nav {
     width: 100vw;
 }
 
+.nav-push {
+    margin-top: 40px;
+}
+
 .navIcons {
     padding-right: 10px;
 }
@@ -71,6 +75,7 @@ footer {
 /* Desktop Header Navbar */
 header {
     font-family: inter;
+
 }
 
 nav {

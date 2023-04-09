@@ -177,5 +177,13 @@ body {
     max-width: 100vw;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+a img:hover {
+    filter: brightness(60%);
+    transition: filter .7s ease;
+}
 
 }

@@ -7,6 +7,9 @@ const navLogo = document.getElementById("navLogo");
 // transform transition to move logo up and down in sync
 toggleButton.addEventListener("touchstart", function() 
 {
+  navLogo.style.transform = "translate(0px, 450px)";
+  navLogo.style.transition = 'transform .5s ease-in-out';
+  navLogo.style.zIndex = "9999"; 
   // if navbar not toggled don't move logo 
   if (toggleButton.getAttribute("aria-expanded") === "true") 
   {
@@ -38,5 +41,4 @@ function onNavbarToggle()
     content.style.marginTop = navbarHeight + 'px';
   }
 }
-
 
