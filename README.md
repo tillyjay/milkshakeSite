@@ -15,8 +15,6 @@ Milkshake index landing page
 
 
 Product pages
-
-![image](https://github.com/tillyjay/milkshakeSite/assets/97525044/a272dd13-44cb-4d6f-a856-50f7daf1b0e0)
 ![image](https://github.com/tillyjay/milkshakeSite/assets/97525044/5775de5a-718e-4213-84bb-7e6cf7a34acd)
 ![image](https://github.com/tillyjay/milkshakeSite/assets/97525044/2fe0b9ea-ae51-4e4a-b14e-ac8026a9e732)
 ![image](https://github.com/tillyjay/milkshakeSite/assets/97525044/784b06ad-fa56-4036-91dc-04c3e6c75559)
