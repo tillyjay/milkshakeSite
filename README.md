@@ -6,6 +6,7 @@ With the mock-ups completed, the site was built mobile friendly first, and then 
 Not going to lie I got a thrill out of creating a service and designing from the ground up. I trend towards front-end development so the whole UI web designing component was grand, and then of course implementing the code itself was a ball. If I was to challenge myself further with this product it would be to add more shop accessible features and complete the product info popout. 
 
 Site elements
+
 ![image](https://github.com/tillyjay/milkshakeSite/assets/97525044/a264e0db-3cf8-4f4f-84f5-1c5ec1902601)
 
 Milkshake index landing page 
@@ -18,6 +19,7 @@ Product pages
 ![image](https://github.com/tillyjay/milkshakeSite/assets/97525044/5775de5a-718e-4213-84bb-7e6cf7a34acd)
 ![image](https://github.com/tillyjay/milkshakeSite/assets/97525044/2fe0b9ea-ae51-4e4a-b14e-ac8026a9e732)
 ![image](https://github.com/tillyjay/milkshakeSite/assets/97525044/784b06ad-fa56-4036-91dc-04c3e6c75559)
+![image](https://github.com/tillyjay/milkshakeSite/assets/97525044/a272dd13-44cb-4d6f-a856-50f7daf1b0e0)
 
 Wireframes available on Figma
 https://www.figma.com/file/gYKl6bHcmXZNzbbQj4I9Vs/APPDAssign2?type=design&node-id=0%3A1&t=smTPb3W6NYERXBdC-1
