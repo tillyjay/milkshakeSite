@@ -21,7 +21,7 @@ The website demonstrates the journey from the initial business idea to the reali
 - Development: Build the website using semantic HTML5, CSS3, and Bootstrap for responsiveness.
 
 ## Challenges 
-- Creating a mobile navbar that contained a logo that was off center of navbar itself. This initally caused delays in navbar expansion and was solved using toggle function.
+- Creating a mobile navbar that contained a logo that was off-centre of the navbar itself. This initially caused delays in navbar expansion and was solved using a toggle function.
 
 ## Future Improvements 
 - Shop Accessible Features: Add more features to make the website more accessible for online shopping.
