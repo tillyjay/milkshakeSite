@@ -1,5 +1,5 @@
 # Milkshake Website
-The website demonstrates the journey from the initial business idea to the realization of a fully functional online presence.The project revolves around the creation of a bar named Milkshake, encompassing various elements such as business concept and requirements, logo design, color palette  selection, and even the use of AI for generation of product images to blend with the colour palette. This was by far one of the most fun projects I have worked on as I really got to play around with design and different front-end concepts. 
+The website demonstrates the journey from the initial business idea to the realization of a fully functional online presence.The project revolves around the creation of a bar named Milkshake, encompassing various elements such as business concept and requirements, logo design, colour palette  selection, and even the use of AI for generation of product images to blend with the colour palette. This was by far one of the most fun projects I have worked on as I really got to play around with design and different front-end concepts. 
 
 ## Features 
 - Unique designed logo intergrated into Nav and Footer elements.
